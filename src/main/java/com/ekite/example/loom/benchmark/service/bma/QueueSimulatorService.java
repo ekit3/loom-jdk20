@@ -1,4 +1,4 @@
-package com.ekite.example.loom.benchmark.service;
+package com.ekite.example.loom.benchmark.service.bma;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
