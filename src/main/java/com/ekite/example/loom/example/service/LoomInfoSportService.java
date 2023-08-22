@@ -1,8 +1,8 @@
-package com.ekite.example.loom.benchmark.service.loom.service;
+package com.ekite.example.loom.example.service;
 
-import com.ekite.example.loom.benchmark.dto.mmo.InfoSport;
-import com.ekite.example.loom.benchmark.dto.mmo.SportLesson;
-import com.ekite.example.loom.benchmark.service.loom.scope.LoomInfoSportScope;
+import com.ekite.example.loom.example.dto.InfoSport;
+import com.ekite.example.loom.example.dto.SportLesson;
+import com.ekite.example.loom.example.service.scope.LoomInfoSportScope;
 import org.springframework.stereotype.Service;
 
 @Service

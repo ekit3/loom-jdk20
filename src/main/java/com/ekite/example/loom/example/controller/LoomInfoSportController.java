@@ -1,17 +1,19 @@
-package com.ekite.example.loom.benchmark.controller;
+package com.ekite.example.loom.example.controller;
 
-import com.ekite.example.loom.benchmark.service.loom.service.LoomInfoSportService;
+import com.ekite.example.loom.example.service.LoomInfoSportService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController("/loomInfoSport")
+@RestController()
+@RequestMapping("/loomInfoSport")
 public class LoomInfoSportController {
 
     @Autowired
     LoomInfoSportService loomInfoSportService;
 
-    @GetMapping("/info")
+    @GetMapping()
     public void findInfoSport() throws InterruptedException {
         loomInfoSportService.findInfoSport();
     }

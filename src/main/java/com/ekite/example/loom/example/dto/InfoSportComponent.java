@@ -1,4 +1,4 @@
-package com.ekite.example.loom.benchmark.dto.mmo;
+package com.ekite.example.loom.example.dto;
 
 public sealed interface InfoSportComponent permits SportLesson {
 }

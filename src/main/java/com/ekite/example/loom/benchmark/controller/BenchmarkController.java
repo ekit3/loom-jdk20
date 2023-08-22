@@ -1,10 +1,10 @@
 package com.ekite.example.loom.benchmark.controller;
 
 import com.ekite.example.loom.benchmark.dto.BenchmarkResult;
-import com.ekite.example.loom.benchmark.service.bma.ClassicBenchmarkService;
-import com.ekite.example.loom.benchmark.service.bma.LoomBenchmarkService;
-import com.ekite.example.loom.benchmark.service.bma.ReactiveBenchmarkService;
-import com.ekite.example.loom.benchmark.service.bma.ThreadBenchmarkService;
+import com.ekite.example.loom.benchmark.service.ClassicBenchmarkService;
+import com.ekite.example.loom.benchmark.service.LoomBenchmarkService;
+import com.ekite.example.loom.benchmark.service.ReactiveBenchmarkService;
+import com.ekite.example.loom.benchmark.service.ThreadBenchmarkService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;

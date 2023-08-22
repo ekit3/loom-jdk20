@@ -1,4 +1,4 @@
-package com.ekite.example.loom.benchmark.service.bma;
+package com.ekite.example.loom.benchmark.service;
 
 import com.ekite.example.loom.benchmark.dto.BenchmarkResult;
 import lombok.RequiredArgsConstructor;

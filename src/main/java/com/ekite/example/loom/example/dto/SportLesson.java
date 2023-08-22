@@ -1,9 +1,8 @@
-package com.ekite.example.loom.benchmark.dto.mmo;
+package com.ekite.example.loom.example.dto;
 
-import com.ekite.example.loom.benchmark.service.loom.scope.LoomSportLessonScope;
+import com.ekite.example.loom.example.service.scope.LoomSportLessonScope;
 
 import java.time.LocalDateTime;
-import java.util.concurrent.Future;
 
 public record SportLesson(
         String name,

@@ -1,8 +1,8 @@
-package com.ekite.example.loom.benchmark.service.loom.scope;
+package com.ekite.example.loom.example.service.scope;
 
-import com.ekite.example.loom.benchmark.dto.mmo.InfoSport;
-import com.ekite.example.loom.benchmark.dto.mmo.InfoSportComponent;
-import com.ekite.example.loom.benchmark.dto.mmo.SportLesson;
+import com.ekite.example.loom.example.dto.InfoSport;
+import com.ekite.example.loom.example.dto.InfoSportComponent;
+import com.ekite.example.loom.example.dto.SportLesson;
 import jdk.incubator.concurrent.StructuredTaskScope;
 
 import java.util.concurrent.Future;

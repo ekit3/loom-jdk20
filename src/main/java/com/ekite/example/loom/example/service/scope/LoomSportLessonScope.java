@@ -1,6 +1,6 @@
-package com.ekite.example.loom.benchmark.service.loom.scope;
+package com.ekite.example.loom.example.service.scope;
 
-import com.ekite.example.loom.benchmark.dto.mmo.SportLesson;
+import com.ekite.example.loom.example.dto.SportLesson;
 import jdk.incubator.concurrent.StructuredTaskScope;
 
 import java.time.LocalDateTime;
